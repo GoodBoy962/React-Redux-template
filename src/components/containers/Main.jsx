@@ -55,7 +55,7 @@ const styles = theme => ({
 const Bar = ({classes}) => (
   <AppBar className={classes.appBar}>
     <Toolbar>
-      <Typography variant='title' color='inherit' noWrap>Тут заголовок</Typography>
+      <Typography variant='title' color='inherit' noWrap>Header</Typography>
     </Toolbar>
   </AppBar>
 );
@@ -70,7 +70,7 @@ const Pane = ({classes}) => (
           <ListItemIcon>
             <InboxIcon/>
           </ListItemIcon>
-          <ListItemText>Пользователь</ListItemText>
+          <ListItemText>User</ListItemText>
         </MenuItem>
       </MenuList>
     </div>
